@@ -1,0 +1,44 @@
+GET : http://localhost:3000/users/
+
+GET : http://localhost:3000/users/:id
+
+
+POST : http://localhost:3000/users
+body - json : 
+{
+	"username": "Omkar",
+    "email": "omkar@gmaill.com",
+    "password": "Om@123"
+}
+
+PUT : http://localhost:3000/users/:id
+body - json : 
+{
+	"username": "Arman",
+    "email": "arman@123",
+    "password": "arman@123"
+}
+
+DELETE : http://localhost:3000/users/:id
+
+
+
+LOGIN / REGISTER
+
+
+Register : 
+
+POST : http://localhost:3000/register
+body-json :
+{
+	"username": "Arman",
+    "email": "arman@123",
+    "password": "arman@123"
+}
+
+POST : http://localhost:3000/login
+body-json :
+{
+    "email": "omkar@gmail.com",
+    "password": "password123"
+}
