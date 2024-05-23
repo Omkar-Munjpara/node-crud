@@ -1,3 +1,6 @@
+UserData :
+
+
 GET : http://localhost:3000/users/
 
 GET : http://localhost:3000/users/:id
@@ -23,6 +26,9 @@ DELETE : http://localhost:3000/users/:id
 
 
 
+
+
+
 LOGIN / REGISTER
 
 
@@ -35,6 +41,8 @@ body-json :
     "email": "arman@123",
     "password": "arman@123"
 }
+
+Login :
 
 POST : http://localhost:3000/login
 body-json :
